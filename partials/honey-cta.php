@@ -105,18 +105,6 @@ if( get_row_layout() == 'call_to_action' ):
   margin-bottom: 10px;
 }
 
-.cta-button .button {
-  <?php if($buttonColor) {
-    echo 'background-color:'. $buttonColor . ';';
-  }
-
-  if($buttonTextColor) {
-    echo 'color:'. $buttonTextColor . ';';
-  }
-
-  ?>
-}
-
 @media screen and (max-width: 767px) {
   .honey-cta .content {
     max-width: 100%;
