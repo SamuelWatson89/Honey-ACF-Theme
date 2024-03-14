@@ -1,0 +1,333 @@
+[
+    {
+        "key": "group_65f2df355ad74",
+        "title": "Honey CTA",
+        "fields": [
+            {
+                "key": "field_65f2df77c68ef",
+                "label": "Honey Call to Action",
+                "name": "honey_call_to_action",
+                "aria-label": "",
+                "type": "flexible_content",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layouts": {
+                    "layout_65f2e0b0166f8": {
+                        "key": "layout_65f2e0b0166f8",
+                        "name": "call_to_action",
+                        "label": "Call To Action",
+                        "display": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_65f2f4e83a7c7",
+                                "label": "Background Style",
+                                "name": "",
+                                "aria-label": "",
+                                "type": "accordion",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "open": 0,
+                                "multi_expand": 0,
+                                "endpoint": 0
+                            },
+                            {
+                                "key": "field_65f2f4563a7c5",
+                                "label": "background type",
+                                "name": "background_type",
+                                "aria-label": "",
+                                "type": "radio",
+                                "instructions": "Choose if you want to use a solid color, or an image as the section background",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "choices": {
+                                    "solid": "Solid Colour",
+                                    "image": "Image"
+                                },
+                                "default_value": "",
+                                "return_format": "array",
+                                "allow_null": 0,
+                                "other_choice": 0,
+                                "layout": "horizontal",
+                                "save_other_choice": 0
+                            },
+                            {
+                                "key": "field_65f2f4573a7c6",
+                                "label": "Solid Background Color",
+                                "name": "solid_background_color",
+                                "aria-label": "",
+                                "type": "color_picker",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "rgba(255,255,255,0)",
+                                "enable_opacity": 1,
+                                "return_format": "string"
+                            },
+                            {
+                                "key": "field_65f2f55f910c8",
+                                "label": "Background Image",
+                                "name": "background_image",
+                                "aria-label": "",
+                                "type": "image",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "return_format": "array",
+                                "library": "all",
+                                "min_width": "",
+                                "min_height": "",
+                                "min_size": "",
+                                "max_width": "",
+                                "max_height": "",
+                                "max_size": "",
+                                "mime_types": "",
+                                "preview_size": "medium"
+                            },
+                            {
+                                "key": "field_65f2f631975ea",
+                                "label": "CTA Text",
+                                "name": "",
+                                "aria-label": "",
+                                "type": "accordion",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "open": 0,
+                                "multi_expand": 0,
+                                "endpoint": 0
+                            },
+                            {
+                                "key": "field_65f2f652975eb",
+                                "label": "Text Content",
+                                "name": "text_content",
+                                "aria-label": "",
+                                "type": "textarea",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": "",
+                                "rows": "",
+                                "placeholder": "",
+                                "new_lines": "br"
+                            },
+                            {
+                                "key": "field_65f2f6f3975f1",
+                                "label": "Text color",
+                                "name": "text_color",
+                                "aria-label": "",
+                                "type": "color_picker",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "enable_opacity": 0,
+                                "return_format": "string"
+                            },
+                            {
+                                "key": "field_65f2f670975ec",
+                                "label": "CTA Button",
+                                "name": "",
+                                "aria-label": "",
+                                "type": "accordion",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "open": 0,
+                                "multi_expand": 0,
+                                "endpoint": 0
+                            },
+                            {
+                                "key": "field_65f2f682975ed",
+                                "label": "Button Text",
+                                "name": "button_text",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": ""
+                            },
+                            {
+                                "key": "field_65f2f694975ee",
+                                "label": "Button URL",
+                                "name": "button_url",
+                                "aria-label": "",
+                                "type": "url",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": ""
+                            },
+                            {
+                                "key": "field_65f3083877555",
+                                "label": "Button Color",
+                                "name": "button_color",
+                                "aria-label": "",
+                                "type": "color_picker",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "enable_opacity": 0,
+                                "return_format": "string"
+                            },
+                            {
+                                "key": "field_65f3086877556",
+                                "label": "Button Text Color",
+                                "name": "button_text_color",
+                                "aria-label": "",
+                                "type": "color_picker",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "enable_opacity": 0,
+                                "return_format": "string"
+                            },
+                            {
+                                "key": "field_65f2f6a6975ef",
+                                "label": "CTA Options",
+                                "name": "",
+                                "aria-label": "",
+                                "type": "accordion",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "open": 0,
+                                "multi_expand": 0,
+                                "endpoint": 0
+                            },
+                            {
+                                "key": "field_65f2f6b9975f0",
+                                "label": "Content Position",
+                                "name": "content_position",
+                                "aria-label": "",
+                                "type": "radio",
+                                "instructions": "Choose the position of the CTA Content (text and button)",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "choices": {
+                                    "left": "Left",
+                                    "center": "Center",
+                                    "right": "Right"
+                                },
+                                "default_value": "",
+                                "return_format": "value",
+                                "allow_null": 0,
+                                "other_choice": 0,
+                                "layout": "horizontal",
+                                "save_other_choice": 0
+                            }
+                        ],
+                        "min": "",
+                        "max": ""
+                    }
+                },
+                "min": "",
+                "max": "",
+                "button_label": "Add Row"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_template",
+                    "operator": "==",
+                    "value": "default"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "seamless",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    }
+]
